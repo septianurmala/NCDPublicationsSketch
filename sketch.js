@@ -38,6 +38,7 @@ function preload() {
 }
 
 function setup() {
+  frameRate(15);
   canvasWidth = windowWidth * 1.5;
   canvasHeight = windowHeight;
   createCanvas(canvasWidth, windowHeight);
